@@ -27,5 +27,4 @@ with app.app_context():
     # Insert each Pet in the list into the "pets" table
     db.session.add_all(pets)
 
-    # Commit the transaction
-    db.session.commit()
+    # Commit the transacti
